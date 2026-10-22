@@ -1,49 +1,145 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Roboto Slab", serif;
-
 }
-#headerpart{
-    padding: 40px 0;
-    background: #ECEDEF;
-}
-.headerflex{
+.content{
+    height:86px;
+    width:100%;
+    max-width: 1920px;
+    background-color: transparent;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    justify-content: space-around;
+    border: 1px solid #ecedef;
+
 }
 .manu ul{
     display: flex;
-    column-gap:30px ;
+    gap: 40px;
     list-style: none;
 }
+#headerpart{
+    padding: 0 auto;
+
+}
 .manu ul li a{
+    color: #242B36;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    color: #242B36;
+    height:24px ;
+    width:608px;
 }
-.container{
-    width: 1320px;
-    margin: 0 auto;
-}
-.headerbtn a{
-    border: 1px solid #417d6e;
-    padding: 10px 18px;
-    font-weight: 400;
-    color: #242B36;
-    margin-right: 10px;
-    transition: all linear.4s;
-    font-size: 16px;
+.navbtn button{
+    width: 133px;
+    height: 44px;
+    gap: 12px;
     border-radius: 20px;
-    text-decoration: none;
-
-}
-
-.headerbtn a:hover {
-    background-color:#417d6e;
-    color: black;
+    outline: none;
     
+
+
+}
+.hero h1{
+    height:160 ;
+    width:686px ;
+    font-size: 49px;
+    color: #3B4759;
+}
+.hero p{
+    color: #3B4759;
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 70px;
+    margin-left: 30px;
+    max-width: 1320px;
+}
+.herobtn button{
+    width: 125px;
+    height: 56px;
+    border-radius: 8px;
+    cursor: pointer;
+       color: #242B36;
+
+
+}
+.btnone{
+    background-color:#007456;
+}
+.sarecbtn input{
+    width: 660px;
+    height:54px;
+    border-radius: 8px;
+    padding-left: 15px;
+    background: none;
+    border: none;
+    
+
+}
+.sarecbtn{
+    display: flex;
+    border: 1px solid black;
+     border-radius: 8px;
+     margin-top: 30px;
+}
+.icon{
+    background-color: yellow;
 }
 
+.heroall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border:  1px solid black;
+    background:linear-gradient(90deg,#B3FFE9, #ffffff48,#fff5e68a);
+    padding-top: 86px;
+
+
+}
+.warper{
+    display: flex;
+    max-width: 1320px;
+}
+.herotwo img{
+    width: 610.94px;
+    height:auto;
+    object-fit: cover;
+    background-color:#007456 ;
+    border-radius: 30%;
+}
+.herotwo{
+    margin-left: auto;
+    border: #242B36;
+}
+.btnthree{
+    background-color: #007456;
+
+} 
+.fivebtn{
+    width:570px ;
+    height:88px;
+    gap:16px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.fivebtn button{
+    padding: 14px 22px;
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #3B4759;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#headerpar{
+    background-color:#E2FFF6;
+}
+
+
+
+   
