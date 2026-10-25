@@ -1,145 +1,315 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
 }
-.content{
-    height:86px;
-    width:100%;
-    max-width: 1920px;
-    background-color: transparent;
+.contenar{
+    height: 86px;
+    width: 100%;
+    background: linear-gradient(to right, #B3FFE9, #FFFFFF00, #FFF5E6);
     display: flex;
-    align-items: center;
-    position: fixed;
     justify-content: space-around;
-    border: 1px solid #ecedef;
-
+    align-items: center;
+    cursor: pointer;
 }
 .manu ul{
     display: flex;
     gap: 40px;
     list-style: none;
-}
-#headerpart{
-    padding: 0 auto;
 
 }
 .manu ul li a{
-    color: #242B36;
     text-decoration: none;
-    height:24px ;
-    width:608px;
+    font-size: 20px;
+    color: black;
+
 }
-.navbtn button{
+.headerbtn button{
     width: 133px;
     height: 44px;
-    gap: 12px;
     border-radius: 20px;
-    outline: none;
-    
-
-
 }
-.hero h1{
-    height:160 ;
-    width:686px ;
-    font-size: 49px;
-    color: #3B4759;
+.headerbtnone{
+    background-color: #007456;
 }
-.hero p{
-    color: #3B4759;
+.heroall{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    max-width: 100%px;
+    background: linear-gradient(to right, #B3FFE9, #FFFFFF00, #FFF5E6);
 }
 .hero{
-    display:flex;
+    width: 686px;
+    height: 682px;
+    display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding-top: 70px;
-    margin-left: 30px;
-    max-width: 1320px;
+    gap: 10px;
+}
+
+.hero h1{
+    font-size: 60px;
+    color: black;
+}
+.heroimg{
+    max-width: 710px;
+    width: 100%;
+}
+.heroimg img{
+    width: 100%;
+    height: auto;
+}
+.hero p{
+    color: rgb(40, 38, 38);
 }
 .herobtn button{
     width: 125px;
     height: 56px;
-    border-radius: 8px;
-    cursor: pointer;
-       color: #242B36;
-
-
+    border-radius: 10px;
 }
-.btnone{
+.herobtnone{
     background-color:#007456;
+    margin-top: 30px;
 }
-.sarecbtn input{
-    width: 660px;
-    height:54px;
-    border-radius: 8px;
-    padding-left: 15px;
-    background: none;
-    border: none;
-    
-
-}
-.sarecbtn{
+.herobtntwo{
+    width: fit-content;
     display: flex;
     border: 1px solid black;
-     border-radius: 8px;
-     margin-top: 30px;
+    border-radius: 8px;
 }
-.icon{
-    background-color: yellow;
-}
+.herobtntwo input {
+    width: 660px;
+    height: 56px;
+    border: none;
+    padding-left: 30px;
 
-.heroall{
+}
+.herobtntwo button{
+    width: 60px;
+    height: 60px;
+    background-color:orange;
+    border-radius: 5px;
+    border: none;
+
+}
+.one {
+    width: 175px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+}
+.two{
+    width: 203px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+}
+.three{
+    width: 77px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+}
+.four {
+    width: 168px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+}
+.five {
+    width: 153px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+}
+.herobtnfive button{
+    margin: 7px 5px;
+
+}
+.herobtnfive{
+    margin-top: 25px;
+}
+.card{
+    width: 100%;
+    height: 529px;
+    background-color:#ffffff;
+    margin-top: 100px;
+}
+.cardtext{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.cardtext button{
+    height:44px ;
+    width: 232px;
+    border-radius: 5px;
+    border:1px solid #007456;
+    color: #007456;
+}
+.card h3{
+    font-size: 36px;
+}
+.cardall{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 50px;
-    border:  1px solid black;
-    background:linear-gradient(90deg,#B3FFE9, #ffffff48,#fff5e68a);
-    padding-top: 86px;
-
+    gap: 30px;
+    padding-top: 40px;
 
 }
-.warper{
-    display: flex;
-    max-width: 1320px;
-}
-.herotwo img{
-    width: 610.94px;
-    height:auto;
-    object-fit: cover;
-    background-color:#007456 ;
-    border-radius: 30%;
-}
-.herotwo{
-    margin-left: auto;
-    border: #242B36;
-}
-.btnthree{
-    background-color: #007456;
-
-} 
-.fivebtn{
-    width:570px ;
-    height:88px;
-    gap:16px;
-    flex-wrap: wrap;
-    display: flex;
-
-}
-.fivebtn button{
-    padding: 14px 22px;
-    background-color: #ffffff;
-    color: #222222;
-    border: 1px solid #3B4759;
+.cardone{
+    height:205px ;
+    width: 312px ;
+    background-color:#ffffff;
     border-radius: 10px;
-    font-size: 15px;
-    font-weight: 500;
+    padding: 20px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card h4{
+    padding-top: 10px;
+}
+.card p{
+    padding-top: 10px;
+} 
+.card h6{
+    padding-top: 15px;
+}
+.card i{
+    color: #00745519;
+}
+.service-card{
+    width: 100%px;
+    height: 1150px;
+    background-color: #b5dfd3;
+}
+.text-service{
+     display: flex;
+    justify-content: space-around;
+
+}
+.service-card h3{
+    font-size: 36px;
+    margin-top: 40px;
+     
+}
+
+.serviceone{
+    height: 44px;
+    width: 181px;
+    background-color: white;
+    color: #007456;
+    border-radius: 5px;
+}
+.servicetwo{
+    height:44px ;
+    width: 101px;
+    border-radius: 5px;
+}
+.servicethree{
+    width: 174px;
+    height: 44px;
+    border-radius: 5px;
+}
+.service-btn{
+    padding-top: 40px;
+}
+.service{
+     width: 100%;
+    min-width: 0;
+    height: 356px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 0 20px;
+     box-sizing: border-box;
+     margin-top: 40px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+    
+}
+.service-all{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+.service h3{
+    font-size: 20px;
+}
+
+.service-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service-button button {
+    background-color:#007456;
+    color:#fff;
+    border: 1px solid #222222;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
-#headerpar{
-    background-color:#E2FFF6;
+.job-titel{
+    width: 100%px;
+    height: 726px;
+    background-color: #fff;
 }
 
+.job-titel h3{
+    font-size: 36px;
+    margin-top: 40px;
+    padding-left:290px;
+    margin-top: 20px;
 
+}
+.job-card{
+    width: 424px;
+    height: 402px;
+    box-sizing: border-box;
+    gap: 30px;
+    padding-left: 30px;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.25);
+}
+.job-all{
+    display: flex;
+    margin: 50px auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 
-   
+}
+.job-card h5{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.job-card button{
+    width: 179px;
+    height: 32px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.job-card p{
+    margin-top: 10px;
+}
+.job-card h6{
+    color: #007456;
+    margin-top: 10px;
+}
